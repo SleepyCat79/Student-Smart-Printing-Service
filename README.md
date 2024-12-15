@@ -14,24 +14,14 @@ Hệ thống cung cấp nhiều chức năng như là in tài liệu, coi lịch
 ```c
 git clone https://github.com/SleepyCat79/Student-Smart-Printing-Service.git
 ```
-+ Truy vấn vào thư mục của project
-```c
-cd BTL-CNPM
-```
++ Truy vấn vào thư mục Source Code và giải nén file ssps-fe-main.zip của project
 + Sử dụng npm để cài đặt các dependencies
     ```c
-    npm i
+    npm install
     ```
 + Khởi động ứng dụng
-    + Đối với client
-    Vào thư mục package.json và đổi dòng "start": "node api/server.js" thành "start": "react-scripts start" trong scripts.
     ```c
     npm start
-    ```
-    + Đối với server
-    Tạo file .env.local và thêm MONGO_URI='mongodb+srv://huyvonguyengia:galaktos1@bittorrent.hycjg.mongodb.net/?retryWrites=true&w=majority&appName=BitTorrent'
-    ```c
-    node server.js
     ```
 
 ## Hướng dẫn sử dụng
